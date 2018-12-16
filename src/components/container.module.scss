@@ -1,0 +1,11 @@
+.container {
+    margin: 3rem auto;
+    max-width: 600px;
+    height: 100vh;
+    padding-top: 200px;
+    background-color: whitesmoke;
+    padding: 2rem;
+    & p {
+        font-weight: bold;
+    }
+}
