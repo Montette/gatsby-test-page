@@ -62,7 +62,7 @@ class Header extends Component {
         console.log(location)
         return (
       <a href="index.html"  className={(this.state.scrolled && location.pathname === '/') || location.pathname !== '/'?  `${styles.nav__logoLink} ${styles.show}` : styles.nav__logoLink}>
-        <img className={styles.nav__logoImg} src={logo} alt="Świecki - Kancelaria Adwokacka"/>
+        <img className='nav__logoImg' src={logo} alt="Świecki - Kancelaria Adwokacka"/>
       </a>
        )
       }}
